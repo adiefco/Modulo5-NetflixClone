@@ -1,0 +1,44 @@
+h1{
+    font-size: 50px;
+    // padding-top: 128px;
+}
+p{
+    font-size: 26px;
+}
+
+.block{
+    display: flex;
+    margin-top: 0px;
+    height: 472px;
+    width: 1440px;
+    background: black;
+    border-bottom: 2px solid #6F6F6F;
+    border-top: 2px solid #6F6F6F;
+}
+
+.ts{
+display: flex;
+color: white;
+}
+
+.ordem{
+    display: flex;
+}
+
+#text{
+    width: 577px ;
+     margin-top: 128px;
+     margin-left: 128px;
+}
+
+#vis{
+    width:  577px;
+    margin-left: 128px;
+    margin-top: 36px;
+    position: relative;
+}
+
+#nt{
+    position: absolute;
+    transform: translate(-400px, 136px);
+}

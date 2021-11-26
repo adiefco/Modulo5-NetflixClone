@@ -1,0 +1,32 @@
+
+<div class="block">
+    
+ <tbody class="ts">
+    <tr class="ordem" *ngIf="list.ordem">
+        <div id="text" *ngIf="list.title">
+            <h1>{{list.title}} </h1>
+            <p> {{list.history}}</p>
+        </div>
+      
+        <div id="vis" *ngIf="list.image">
+            <img [src] = "list.image"  [width]="list.width">
+            <img id="nt" [src] = "list.image2" [width]="list.width2">
+        </div>  
+    </tr>
+    
+    <tr class="ordem" *ngIf="!list.ordem">
+        <div id="vis" *ngIf="list.image">
+            <img [src] = "list.image"  [width]="list.width">
+            <img [src] = "list.image2" [width]="list.width2">
+        </div>  
+
+        <div id="text" *ngIf="list.title">
+            <h1>{{list.title}} </h1>
+            <p> {{list.history}}</p>
+        </div>
+    </tr>
+
+
+        
+</tbody>
+</div>

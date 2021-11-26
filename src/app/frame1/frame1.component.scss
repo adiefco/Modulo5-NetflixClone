@@ -1,0 +1,14 @@
+
+
+html {
+    font-family: 'Martel Sans', sans-serif;
+}
+.principal {
+    // display: flex;
+    width: 1440px;
+    justify-content: center;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}

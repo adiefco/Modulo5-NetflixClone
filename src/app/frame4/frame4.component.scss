@@ -1,0 +1,56 @@
+/*   Fonte   */
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&display=swap');
+
+/*   Root   */
+html {
+    font-size: 15px;
+}
+
+#logo-Netflix {
+    width: 11rem;
+    margin: .6666666rem 2.6666666rem;
+}
+
+h1 {
+    font-family: 'Martel Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.333333rem;
+    line-height: 6rem;
+    color: #E4E4E4;
+    text-align: center;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.svg-usuario {
+    width: 9.666666rem;
+    border-radius: .333333rem;
+}
+img.svg-usuario:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: .333333rem solid #FEFEFE;
+    background-color: #FEFEFE;
+}
+figcaption {
+    margin: .333333rem;
+    text-align: center;
+    color: #808080;
+}
+
+/*   Responsividade   */
+@media screen and (max-width: 900px) {
+    :root {
+        font-size: 5px;
+    }
+} 
+
+#div-main {
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
